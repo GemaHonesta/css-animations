@@ -9,11 +9,11 @@
 }
 
 #hero {
-    width: 75px;
-    height:75px ;
-    border:1px dashed red;
     left:20px;
     top: 20px;
+    height:75px;
+    width: 75px;
+    border:1px dashed red;
     position: absolute;
     animation-name: hero;
     animation-duration: 17s;
@@ -27,31 +27,40 @@
           top:20px;
           border-color:1px dashed red;
           transform: none;
+          background:none;
         }
        
     29%  {left:500px; 
           top:20px;
           border-color:1px dashed red;
           transform: none;
+          background:none;
+         
         }
         
     41%  {left:500px; 
           top:200px;
           border-color:1px dashed red;
           transform: none;
+          background:none;
+          
         }
     
     44% {
-          border: 1px dashed red;
           left:270px;
           top:200px;
+          border: 1px dashed red;
           transform: rotate(45deg);
+          background:none;
+         
         }
         
     56%  {left:270px; 
           top:200px;
           transform: rotate(45deg);
           border-color:1px dashed red;
+          background:none;
+          
         }
         
     76%  {left:20px; 
@@ -59,17 +68,16 @@
           border: 1px dashed #0900bd;
           transform: none;
           border-radius: 0%;
-          background-color: transparent;
+          background:none;
           
     }
         
     100% {left:480px; 
           top:480px;
-          border-color:1px dashed red;
-          background-color: orange;
-          transform: none;
+          border: none;
           border-radius: 50%;
           transform: scale(2);
-          
+          background: radial-gradient(#fbda61, #F76B1C);
+        
         }
 }
