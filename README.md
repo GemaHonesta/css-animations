@@ -1,7 +1,8 @@
 # Project name: css-animations
 
 ## Project mission
-You might not know him, but as the inventor of HTML, Tim Berners-Lee is the cause to all your current fun and problems. In his honor, you will make a web page, following a predefined mockup. For this project create a new repository called tim-berners-lee with an images folder.
+In this exercise, you will build a complex animation, step by step.
+As often with CSS, this is an exercise in precision and accuracy (and a zest of dementia, because... CSS). To give you a reliable visual assistant, you will thus use a technique that could be called "the image background guide Technique".
 
 ## Instructions & Objectives:
 
